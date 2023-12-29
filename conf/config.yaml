@@ -1,0 +1,4 @@
+name: "NBA"
+listen_address: "127.0.0.1"
+port: 12345
+logfilepath: "server.log"

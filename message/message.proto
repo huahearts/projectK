@@ -1,0 +1,8 @@
+syntax = "proto3";  //指定语法格式，注意 proto3 不再支持 proto2 的 required  和 optinal
+option go_package = ".";
+
+
+message User {
+string username = 1;
+string passwd = 2;
+}
